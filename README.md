@@ -4,7 +4,7 @@ Use Database Mysql version 8.0.17
 Use Server Tomcat version 8.5
 Use Tool Eclipse
 ####Database Table####
-CREATE TABLE TB_BOARD(v
+CREATE TABLE TB_BOARD(
 BOARD_SEQ INT UNSIGNED NOT NULL AUT_INCREMENT COMMENT '게시글 번호',
 BOARD_RE_REF INT COMMENT '글의 그룹 번호',
 BOARD_RE_LEV INT COMMENT '답변 글의 깊이',
